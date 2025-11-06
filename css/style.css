@@ -1206,7 +1206,7 @@ body.compensate-for-scrollbar {
 .map {
   min-height: 626px;
   /* overflow: hidden; */
-  background-image: url(/images/mai-bg.webp);
+  background-image: url(../images/mai-bg.webp);
   background-repeat: no-repeat;
   /* background-size: 100% auto; */
   background-position: center;
@@ -3840,4 +3840,5 @@ font-size: 20px;
 
 .display-none {
   display: none;
+
 }
