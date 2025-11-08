@@ -1206,7 +1206,7 @@ body.compensate-for-scrollbar {
 .map {
   min-height: 626px;
   /* overflow: hidden; */
-  background-image: url(../images/mai-bg.webp);
+  background-image: url(/images/mai-bg.webp);
   background-repeat: no-repeat;
   /* background-size: 100% auto; */
   background-position: center;
@@ -1957,6 +1957,9 @@ body.compensate-for-scrollbar {
 
 .about {
   padding-bottom: 80px;
+  background: #f7f8fa;
+  padding-top: 60px;
+  margin-bottom: 80px;
 }
 
 .about__title {
@@ -2191,6 +2194,9 @@ body.compensate-for-scrollbar {
   width: calc((100% - ((var(--elems) - 1) * var(--gap))) / (var(--elems)));
   position: relative;
   padding: 40px;
+  box-shadow: -10px -10px 34px 0 rgba(0, 0, 0, 0.05);
+  background: #f7f8fa;
+  border-radius: 0 30px 30px 30px;
 }
 
 .written-rewiews__item-title {
@@ -2219,6 +2225,10 @@ body.compensate-for-scrollbar {
 
 .section-maps__content {
   padding: 40px;
+  background: #f7f8fa;
+  border-radius: 30px;
+  max-width: 734px;
+  width: 100%;
 }
 
 .section-maps__title {
@@ -3033,6 +3043,10 @@ font-size: 20px;
     align-items: flex-start;
   }
 
+  .benefits__box {
+    border-radius: 0 0 80px 0;
+  }
+
   .benefits__items {
     background-size: contain;
     margin-top: -80px;
@@ -3046,7 +3060,8 @@ font-size: 20px;
   }
 
   .cars__content-img {
-    width: 50%;
+    width: 70%;
+    right: 0;
   }
 
   .written-rewiews__list {
@@ -3264,6 +3279,10 @@ font-size: 20px;
   .section-card {
     padding-bottom: 60px;
   }
+
+  .cars__content-img {
+    width: 80%;
+  }
 }
 
 @media (max-width:767px) {
@@ -3348,8 +3367,12 @@ font-size: 20px;
   }
 
   .benefits__text {
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 16px;
+    line-height: 1.2;
+  }
+
+  .section-card-form__btn {
+    font-size: 15px;
   }
 
   .footer__inner {
@@ -3513,7 +3536,7 @@ font-size: 20px;
 
   .cars__content {
     margin-left: 0;
-    padding: 53px 0 45px 28px;
+    padding: 20px;
   }
 
   .cars__content-wrapper {
@@ -3573,7 +3596,12 @@ font-size: 20px;
   }
 
   .cars__content-text {
-    padding-bottom: 70px;
+    padding-bottom: 140px;
+  }
+
+  .about {
+    padding-bottom: 50px;
+    margin-bottom: 60px;
   }
 }
 
@@ -3840,5 +3868,4 @@ font-size: 20px;
 
 .display-none {
   display: none;
-
 }
